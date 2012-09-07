@@ -7,6 +7,19 @@ alias ..='cd ..'
 alias du='du -kh'
 alias df='df -kTh'
 
+# hide/unhide hidden files/folders
+alias show="defaults write com.apple.Finder AppleShowAllFiles YES; killall Finder"
+alias hide="defaults write com.apple.Finder AppleShowAllFiles  NO; killall Finder"
+
+# start/stop postgres
+alias start_pg="launchctl load -w ~/Library/LaunchAgents/org.postgresql.postgres.plist"
+alias stop_pg="launchctl unload -w ~/Library/LaunchAgents/org.postgresql.postgres.plist"
+
+# start/stop mysql
+alias start_mysql="launchctl load -w ~/Library/LaunchAgents/com.mysql.mysqld.plist"
+alias stop_mysql="launchctl unload -w ~/Library/LaunchAgents/com.mysql.mysqld.plist"
+
+# start/stop pow
 alias start_pow="launchctl load $HOME/Library/LaunchAgents/cx.pow.powd.plist"
 alias stop_pow="launchctl unload $HOME/Library/LaunchAgents/cx.pow.powd.plist"
 

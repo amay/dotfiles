@@ -1,6 +1,6 @@
 [user]
-	name = Aaron Jensen
-  email = aaronjensen@gmail.com
+	name = Alex May
+  email = alex.k.may@gmail.com
 [color]
   diff = auto
   status = auto
@@ -73,7 +73,7 @@
 [push]
   default = tracking
 [core]
-	excludesfile = /Users/aaronjensen/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"

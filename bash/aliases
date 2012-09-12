@@ -48,3 +48,6 @@ function current_branch {
 
   echo ${branch_name##refs/heads/}
 }
+
+alias tmux='tmux -2'
+

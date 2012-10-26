@@ -1,4 +1,5 @@
 --smart-case
+--type-add=python=.zcml
 --type-add=ruby=.haml,.feature
 --type-add=css=.sass,.scss
 --type-set=tags=tags

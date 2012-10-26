@@ -6,7 +6,7 @@ F=`pwd |sed -e "s#$HOME/\?##"`
 for P in *
 do
   # skip setup
-  if [ "$P" = "setup.sh" ]; then continue; fi
+  if [ "$P" = "setup.sh" ] || [ "$P" = "ssh_config" ] ; then continue; fi
 
   # ensure permissions
   chmod -R o-rwx,g-rwx $P
@@ -29,3 +29,5 @@ do
   echo -n "Link "
   ln -v -s "$F/$P" "$HOME/.$P"
 done
+
+ln -v -s "$F/ssh_config" "$HOME/.ssh/config"

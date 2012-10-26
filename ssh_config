@@ -1,0 +1,17 @@
+# run this if you are hosting session
+Host tunnel_from_remote
+  HostName 69.64.77.74
+  RemoteForward 12355 localhost:22
+  User alex
+
+# run these if you are joining session
+Host tunnel_to_pair_via_remote
+  Hostname 69.64.77.74
+  LocalForward 12355 localhost:12355
+  User alex
+
+Host pair_via_remote
+  Hostname localhost
+  Port 12355
+  User pairprogramming
+

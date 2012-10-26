@@ -60,3 +60,8 @@ export RUBY_HEAP_FREE_MIN=500000
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
+
+
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+  . /usr/local/bin/virtualenvwrapper.sh
+fi

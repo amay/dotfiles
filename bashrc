@@ -7,8 +7,8 @@ export EDITOR='mvim -v'
 export VISUAL='mvim -v'
 export TM_GIT=/usr/local/bin/git
 
-export CUCUMBER_FORMAT=Cucumber::Formatter::Fuubar
-export RSPEC_FORMAT=Fuubar
+# export CUCUMBER_FORMAT=Cucumber::Formatter::Fuubar
+# export RSPEC_FORMAT=Fuubar
 
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/usr/local/share/npm/bin:~/.bin:$PATH:$HOME/.rvm/bin
 export NODE_PATH=/usr/local/lib/node:/usr/local/lib/node_modules
@@ -65,3 +65,6 @@ export RUBY_HEAP_FREE_MIN=500000
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
   . /usr/local/bin/virtualenvwrapper.sh
 fi
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

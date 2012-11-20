@@ -11,17 +11,17 @@ alias df='df -kTh'
 alias show="defaults write com.apple.Finder AppleShowAllFiles YES; killall Finder"
 alias hide="defaults write com.apple.Finder AppleShowAllFiles  NO; killall Finder"
 
-# start/stop postgres
 alias start_pg="launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 alias stop_pg="launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 
-# start/stop mysql
 alias start_mysql="launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist"
 alias stop_mysql="launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist"
 
-# start/stop pow
 alias start_pow="launchctl load $HOME/Library/LaunchAgents/cx.pow.powd.plist"
 alias stop_pow="launchctl unload $HOME/Library/LaunchAgents/cx.pow.powd.plist"
+
+alias start_memcached="launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
+alias stop_memcached="launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
 
 alias vim='mvim -v'
 
@@ -41,6 +41,7 @@ alias gm='git smart-merge'
 alias gl='git smart-log'
 
 alias ssh='TERM=xterm-256color ssh'
+alias tmux='tmux -2'
 
 function current_branch {
   branch_name="$(git symbolic-ref HEAD 2>/dev/null)" ||

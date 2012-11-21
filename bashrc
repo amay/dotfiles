@@ -45,8 +45,8 @@ export HISTSIZE=10000
 shopt -s histappend
 
 source ~/.bash/aliases
-if [ -f `brew --prefix`/etc/autojump ]; then
-  . `brew --prefix`/etc/autojump
+if [ -f `brew --prefix`/etc/autojump.sh ]; then
+  . `brew --prefix`/etc/autojump.sh
 fi
 
 export RUBY_HEAP_MIN_SLOTS=1000000

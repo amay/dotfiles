@@ -24,3 +24,4 @@
 --ignore-dir=coverage
 --ignore-dir=bundle
 --ignore-dir=target
+--ignore-dir=node_modules

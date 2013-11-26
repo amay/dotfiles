@@ -71,6 +71,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export ANDROID_HOME="/usr/local/Cellar/android-sdk/r21/"
 
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home"
+
 # direnv hook
 eval "$(direnv hook $0)"
 

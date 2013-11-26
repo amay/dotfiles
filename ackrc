@@ -10,6 +10,7 @@
 --type-set=image=.jpg,.gif,.png,.jpeg,.bmp
 --type-set=video=.mp4
 --type-set=docs=.docx,.doc,.xlsx,.xls
+--type-set=javaweb=.vm
 --notags
 --noimage
 --novideo
@@ -22,3 +23,4 @@
 --ignore-dir=log
 --ignore-dir=coverage
 --ignore-dir=bundle
+--ignore-dir=target

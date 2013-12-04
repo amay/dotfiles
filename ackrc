@@ -2,7 +2,7 @@
 --type-add=python=.zcml
 --type-add=ruby=.haml,.feature
 --type-add=css=.sass,.scss
---type-add=blade=.blade
+--type-set=blade=.blade
 --type-set=tags=tags
 --type-set=coffee=coffee
 --type-set=hamlbars=hamlbars

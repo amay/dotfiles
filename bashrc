@@ -70,3 +70,4 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Hom
 # direnv hook
 eval "$(direnv hook $0)"
 
+export NODE_PATH=/usr/local/lib/node:/usr/local/lib/node_modules:/usr/local/share/npm/lib/node_modules

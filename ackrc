@@ -1,6 +1,6 @@
 --smart-case
 --type-set=npm=npm,.json
---type-set=blade=.blade
+--type-set=jade=.jade,.blade
 --type-set=tags=tags
 --type-set=coffee=coffee
 --type-set=hamlbars=hamlbars,.hamblars,.hbs

@@ -1,12 +1,18 @@
 {
+  "globalstrict": true,
   "globals" : {
+    /* NODE */
+    "require": false,
+    "module": false,
+    "setInterval": false,
+    "clearInterval": false,
     /* MOCHA */
-    "require"    : false,
-    "describe"   : false,
-    "it"         : false,
-    "before"     : false,
-    "beforeEach" : false,
-    "after"      : false,
-    "afterEach"  : false
+    "describe": false,
+    "context": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false
   }
 }

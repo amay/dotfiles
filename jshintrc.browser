@@ -1,0 +1,7 @@
+{
+  "globalstrict": false,
+  "browser": true,
+  "globals" : {
+  }
+}
+

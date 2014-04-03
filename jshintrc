@@ -7,6 +7,7 @@
     "module": false,
     "setInterval": false,
     "clearInterval": false,
+    "process": false,
     /* MOCHA */
     "describe": false,
     "context": false,

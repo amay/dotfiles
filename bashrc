@@ -10,8 +10,6 @@ export TM_GIT=/usr/local/bin/git
 # export CUCUMBER_FORMAT=Cucumber::Formatter::Fuubar
 # export RSPEC_FORMAT=Fuubar
 
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/usr/local/share/npm/bin:~/.bin:$PATH:$HOME/.rvm/bin
-export NODE_PATH=/usr/local/lib/node:/usr/local/lib/node_modules
 
 #complete -o default -o nospace -F __git_flow_feature f
 #complete -o default -o nospace -F __git_flow_release release
@@ -61,7 +59,7 @@ if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
 fi
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/heroku/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/usr/local/share/npm/bin:~/.bin:$PATH:$HOME/.rvm/bin"
 
 export ANDROID_HOME="/usr/local/Cellar/android-sdk/r21/"
 

@@ -59,7 +59,11 @@ if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
 fi
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/usr/local/share/npm/bin:~/.bin:$PATH:$HOME/.rvm/bin"
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+export PATH="/usr/local/share/npm/bin:$PATH"
+export PATH="$HOME/.bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 export ANDROID_HOME="/usr/local/Cellar/android-sdk/r21/"
 

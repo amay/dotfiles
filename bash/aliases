@@ -49,4 +49,3 @@ function current_branch {
   echo ${branch_name##refs/heads/}
 }
 
-alias n='name_tab'

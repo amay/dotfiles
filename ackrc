@@ -8,6 +8,7 @@
 --type-set=image=.jpg,.gif,.png,.jpeg,.bmp
 --type-set=video=.mp4
 --type-set=docs=.docx,.doc,.xlsx,.xls
+--type-set=mustache=.mustache
 --type-set=javaweb=.vm
 --type-set=handlebars=.handlebars
 --type-add=python=.zcml

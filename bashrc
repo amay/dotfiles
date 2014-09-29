@@ -87,3 +87,6 @@ function removeFromPath() {
 eval "$(direnv hook $0)"
 
 export NODE_PATH=/usr/local/lib/node:/usr/local/lib/node_modules:/usr/local/share/npm/lib/node_modules
+
+export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.1.1
+export PATH=$PATH:$EC2_HOME/bin

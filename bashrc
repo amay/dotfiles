@@ -21,6 +21,9 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
 fi
 
+# setup resty
+. ~/.bash/resty
+
 export HOMEBREW_TEMP=/var/tmp
 export BUNDLER_EDITOR='/usr/local/bin/mvim -v'
 

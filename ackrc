@@ -12,8 +12,9 @@
 --type-set=javaweb=.vm
 --type-set=handlebars=.handlebars
 --type-add=python=.zcml
+--type-add=php=.inc,.info
 --type-add=ruby=.haml,.feature
---type-add=css=.sass,.scss
+--type-add=css=.sass,.scss,.less
 --type-add=js=._js
 --notags
 --noimage

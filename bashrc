@@ -93,3 +93,6 @@ export NODE_PATH=/usr/local/lib/node:/usr/local/lib/node_modules:/usr/local/shar
 
 export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.1.1
 export PATH=$PATH:$EC2_HOME/bin
+
+export NVM_DIR="/Users/alex/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

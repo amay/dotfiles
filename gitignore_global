@@ -18,5 +18,4 @@ bundler_stubs
 .bundle
 .vimrc
 .rspec
-.envrc
 mynotes.md

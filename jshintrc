@@ -1,6 +1,7 @@
 {
   "globalstrict": true,
   "expr": true,
+  "esnext": true,
   "globals" : {
     /* NODE */
     "require": false,

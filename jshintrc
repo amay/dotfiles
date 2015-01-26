@@ -1,5 +1,4 @@
 {
-  "globalstrict": true,
   "expr": true,
   "esnext": true,
   "globals" : {

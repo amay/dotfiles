@@ -6,10 +6,10 @@ cd `dirname $0`
 ./setup/brew.sh
 ./setup/mac-defaults.sh
 
-[[ -d ~/.vim ]] || \
+[[ -d ~/.vim ]] || ( \
   git clone git@github.com:amay/vimfiles.git ~/.vim && \
-  ~/.vim/setup.sh
+  ~/.vim/setup.sh )
 
-[[ -d ~/.atom ]] || \
+[[ -d ~/.atom ]] || ( \
   git clone git@github.com:substantial/atomfiles.git ~/.atom && \
-  cd ~/.atom && bin/update-packages
+  cd ~/.atom && bin/update-packages )

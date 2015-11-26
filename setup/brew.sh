@@ -55,4 +55,5 @@ brew cask install google-drive
 brew cask install iterm2
 brew cask install mattr-slate
 brew cask install p4merge
+brew cask install atom
 

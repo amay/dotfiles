@@ -4,6 +4,7 @@ for P in *
 do
   # skip setup
   if [[ "$P" == setup* ]] ; then continue; fi
+  if [[ "$P" == fonts* ]] ; then continue; fi
 
   # ensure permissions
   chmod -R o-rwx,g-rwx $P
@@ -26,4 +27,3 @@ do
   echo -n "Link "
   ln -v -s "$F/$P" "$HOME/.$P"
 done
-

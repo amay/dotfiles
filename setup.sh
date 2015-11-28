@@ -23,3 +23,4 @@ cd `dirname $0`
   git checkout --track -B develop origin/develop)
 
 command -v rvm > /dev/null || \curl -sSL https://get.rvm.io | bash
+command -v nvm > /dev/null || \curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash

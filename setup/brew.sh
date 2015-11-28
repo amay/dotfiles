@@ -48,6 +48,7 @@ brew install michaeldfallen/formula/git-radar
 brew linkapps
 
 export HOMEBREW_CASK_OPTS='--appdir=/Applications'
+brew cask install atom
 brew cask install caffeine
 brew cask install dropbox
 brew cask install firefox
@@ -56,4 +57,4 @@ brew cask install google-drive
 brew cask install iterm2
 brew cask install mattr-slate
 brew cask install p4merge
-brew cask install atom
+brew cask install slack

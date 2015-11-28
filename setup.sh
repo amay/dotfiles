@@ -21,3 +21,5 @@ cd `dirname $0`
   git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d && \
   cd ~/.emacs.d && \
   git checkout --track -B develop origin/develop)
+
+command -v rvm > /dev/null || \curl -sSL https://get.rvm.io | bash

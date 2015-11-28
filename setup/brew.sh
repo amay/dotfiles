@@ -4,6 +4,7 @@ command -v brew > /dev/null || ruby -e "$(curl -fsSL https://raw.githubuserconte
 brew tap homebrew/dupes
 brew install caskroom/cask/brew-cask
 brew tap thoughtbot/formulae
+brew tap railwaycat/emacsmacport
 brew update
 
 brew install ack
@@ -56,4 +57,3 @@ brew cask install iterm2
 brew cask install mattr-slate
 brew cask install p4merge
 brew cask install atom
-

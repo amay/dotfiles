@@ -51,4 +51,11 @@ function current_branch {
   echo ${branch_name##refs/heads/}
 }
 
-alias npm-exec='PATH=$(npm bin):$PATH'
+unalias g 2>/dev/null
+function g {
+  if [[ $# > 0 ]]; then
+    hub "$@"
+  else
+    git status -sb
+  fi
+}

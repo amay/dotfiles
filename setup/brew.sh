@@ -54,8 +54,9 @@ brew cask install dropbox
 brew cask install firefox
 brew cask install google-chrome
 brew cask install google-drive
+brew cask install intellij-idea-ce
 brew cask install iterm2
 brew cask install mattr-slate
 brew cask install p4merge
+brew cask install sketch
 brew cask install slack
-brew cask install intellij-idea-ce

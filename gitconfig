@@ -24,6 +24,8 @@
   dc = diff --cached
   amend = commit --amend
   amendr = commit --amend --reuse-message=HEAD
+  a = add
+  ap = add -p
   aa = add --all
   head = !git l -1
   h = !git head

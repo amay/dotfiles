@@ -10,7 +10,10 @@
 [alias]
   st = status -sb
   ci = commit
+  cip = commit -p
   cim = commit -m
+  amend = commit --amend
+  amendr = commit --amend --reuse-message=HEAD
   co = checkout
   br = branch
   bra = branch -a
@@ -22,8 +25,6 @@
   cleanbr = !git branch -r --no-color --merged | grep -v \"/\\(master\\|develop\\|integration\\)$\" | sed \"s/\\// :/\" | xargs -L1 git push && git branch --no-color --merged | grep -v \" \\(master\\|develop\\|integration\\)$\" | xargs -L1 git branch -d
   di = diff
   dc = diff --cached
-  amend = commit --amend
-  amendr = commit --amend --reuse-message=HEAD
   a = add
   ap = add -p
   aa = add --all

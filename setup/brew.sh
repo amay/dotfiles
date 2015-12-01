@@ -45,6 +45,10 @@ brew install emacs-mac --with-spacemacs-icon
 brew install macvim --with-cscope --with-luajit
 brew install michaeldfallen/formula/git-radar
 
+brew cask install java
+brew install maven
+brew install neo4j
+
 brew linkapps
 
 export HOMEBREW_CASK_OPTS='--appdir=/Applications'

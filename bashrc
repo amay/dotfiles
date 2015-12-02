@@ -10,6 +10,9 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
 fi
 
+# git bash completion with 'g' alias
+__git_complete g __git_main
+
 # setup resty
 . ~/.bash/resty
 

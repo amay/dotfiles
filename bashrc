@@ -1,16 +1,7 @@
-#eval `hub alias -s bash`
-
 export BASH_ENV='~/.bash/env'
 export EDITOR='mvim -v'
 export VISUAL='mvim -v'
 export TM_GIT=/usr/local/bin/git
-
-# export CUCUMBER_FORMAT=Cucumber::Formatter::Fuubar
-# export RSPEC_FORMAT=Fuubar
-
-
-#complete -o default -o nospace -F __git_flow_feature f
-#complete -o default -o nospace -F __git_flow_release release
 
 source ~/.bash/colors
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"

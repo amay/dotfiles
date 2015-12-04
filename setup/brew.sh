@@ -30,6 +30,7 @@ brew install pcre
 brew install phantomjs
 brew install pick
 brew install postgresql
+brew install python
 brew install qt
 brew install readline
 brew install reattach-to-user-namespace

@@ -31,6 +31,8 @@ function bindAll() {
     "k:ctrl,cmd"        : "top",
     "l:ctrl,cmd"        : "right",
     "j:ctrl,cmd"        : "bottom",
+    ",:ctrl,cmd"        : "bottomLeft",
+    ".:ctrl,cmd"        : "bottomRight",
     "l:ctrl,cmd,shift"  : "rightThird",
     "h:ctrl,cmd,shift"  : "leftTwoThirds"
   });

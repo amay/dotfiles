@@ -19,3 +19,4 @@ bundler_stubs
 .vimrc
 .rspec
 mynotes.md
+.idea

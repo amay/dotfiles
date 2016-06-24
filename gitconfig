@@ -69,6 +69,7 @@
   keepBackup = false
 [diff]
   tool = vimdiff
+  compactionHeuristic = true
 [difftool]
   prompt = false
 [rerere]

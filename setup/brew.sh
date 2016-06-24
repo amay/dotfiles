@@ -2,7 +2,6 @@
 command -v brew > /dev/null || ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew tap homebrew/dupes
-brew install caskroom/cask/brew-cask
 brew tap thoughtbot/formulae
 brew tap railwaycat/emacsmacport
 brew update

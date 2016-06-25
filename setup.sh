@@ -22,5 +22,18 @@ cd `dirname $0`
   cd ~/.emacs.d && \
   git checkout --track -B develop origin/develop)
 
-command -v rvm > /dev/null || \curl -sSL https://get.rvm.io | bash
-command -v nvm > /dev/null || \curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+[[ -d ~/.asdf ]] || ( \
+  git clone https://github.com/asdf-vm/asdf.git ~/.asdf \
+)
+[[ -d ~/.asdf/plugins/elixir ]] || ( \
+  asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git \
+)
+[[ -d ~/.asdf/plugins/erlang ]] || ( \
+  asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git \
+)
+[[ -d ~/.asdf/plugins/ruby ]] || ( \
+  asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git \
+)
+[[ -d ~/.asdf/plugins/nodejs ]] || ( \
+  asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git \
+)

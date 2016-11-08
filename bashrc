@@ -59,7 +59,7 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-export ANDROID_HOME="/usr/local/Cellar/android-sdk/r21/"
+export ANDROID_HOME=/usr/local/opt/android-sdk
 
 export JAVA_HOME="$(/usr/libexec/java_home)"
 

@@ -4,6 +4,7 @@ cd `dirname $0`
 
 ./setup/link-dotfiles.sh
 ./setup/mac-defaults.sh
+./setup/brew.sh
 
 [[ -d ~/.asdf ]] || ( \
   git clone https://github.com/asdf-vm/asdf.git ~/.asdf \

@@ -1,6 +1,6 @@
 export BASH_ENV='~/.bash/env'
-export EDITOR='mvim -v'
-export VISUAL='mvim -v'
+export EDITOR='code --wait'
+export VISUAL='code --wait'
 export TM_GIT=/usr/local/bin/git
 
 source ~/.bash/colors
@@ -17,7 +17,7 @@ __git_complete g __git_main
 . ~/.bash/resty
 
 export HOMEBREW_TEMP=/var/tmp
-export BUNDLER_EDITOR='/usr/local/bin/mvim -v'
+export BUNDLER_EDITOR='code --wait'
 
 # git prompt goodnes
 GIT_PS1_SHOWDIRTYSTATE=true
@@ -65,8 +65,6 @@ export JAVA_HOME="$(/usr/libexec/java_home)"
 
 # direnv hook
 eval "$(direnv hook $0)"
-
-export NODE_PATH=/usr/local/lib/node:/usr/local/lib/node_modules:/usr/local/share/npm/lib/node_modules
 
 export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.1.1
 export PATH=$PATH:$EC2_HOME/bin

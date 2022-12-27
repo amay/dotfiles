@@ -1,7 +1,4 @@
-alias ls='ls -G'
-alias ll='ls -Al'
 alias mkdir='mkdir -p'
-alias which='type -a'
 
 alias du='du -kh'
 alias df='df -kTh'

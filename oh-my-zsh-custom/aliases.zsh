@@ -4,6 +4,7 @@ alias du='du -kh'
 alias df='df -kTh'
 
 alias ack='ag'
+alias which='type -a'
 
 # hide/unhide hidden files/folders
 alias show="defaults write com.apple.Finder AppleShowAllFiles YES; killall Finder"

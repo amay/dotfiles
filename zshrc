@@ -76,6 +76,7 @@ plugins=(
   autojump
   tmux
   aws
+  nvm
 )
 
 source $ZSH/oh-my-zsh.sh

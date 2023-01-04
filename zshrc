@@ -75,6 +75,7 @@ plugins=(
   asdf
   autojump
   tmux
+  aws
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,3 +105,20 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+# pants
+export PANTS_LINT=true
+
+
+export REMOTE_PRIVATE_KEY_FILE="/Users/amay/.ssh/id_rsa"
+
+export DEVELOPER_NAME=amay
+
+export REMOTE_IP=amay-private.ripplingtest.com

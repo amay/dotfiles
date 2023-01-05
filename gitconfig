@@ -28,7 +28,7 @@
   poh = push origin HEAD
   puoh = push -u origin HEAD
   b = branch
-  rho = !git stash -u 2>&1 > /dev/null && git reset --hard origin/`bash -c current_branch`
+  rho = !git stash -u 2>&1 > /dev/null && git reset --hard origin/`zsh -c current_branch`
   cleanup = !git branch --merged | grep -v '\\bmaster$\\|\\bmain$' | xargs git branch -d
 
 [format]

@@ -3,4 +3,4 @@
 
 brew install tmux
 brew install autojump
-
+brew install pure

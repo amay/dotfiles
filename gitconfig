@@ -63,7 +63,7 @@
   filemode = true
   ignorecase = false
   trustctime = false
-	editor = code --wait
+  editor = code --wait -n
 [diff]
   tool = vscode
 [difftool "vscode"]

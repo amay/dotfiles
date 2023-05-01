@@ -20,3 +20,6 @@ bundler_stubs
 .rspec
 mynotes.md
 .idea
+
+amay_notes.md
+app/amay.py

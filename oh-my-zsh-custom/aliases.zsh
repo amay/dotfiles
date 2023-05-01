@@ -30,3 +30,6 @@ alias tmux='tmux -2'
 # }
 
 function _gs() { alias | grep "^g.*$1" }
+
+alias gbdcomp='git branch --no-color | command grep -vE "^([+*]|\s*($(git_main_branch)|$(git_develop_branch))\s*$)" | command grep -i "comp-" | command xargs git branch -D 2>/dev/null'
+alias gcam='git commit --amend'

@@ -29,7 +29,6 @@
   puoh = push -u origin HEAD
   b = branch
   rho = !git stash -u 2>&1 > /dev/null && git reset --hard origin/`zsh -c current_branch`
-  cleanup = !git branch --merged | grep -v '\\bmaster$\\|\\bmain$' | xargs git branch -d
 
 [format]
     pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
@@ -63,7 +62,7 @@
   filemode = true
   ignorecase = false
   trustctime = false
-  editor = code --wait -n
+  editor = vim
 [diff]
   tool = vscode
 [difftool "vscode"]
@@ -79,3 +78,13 @@
   cmd = open -a Firefox.app
 [web]
   browser = ff
+[spice "branchCreate"]
+	commit = false
+[spice "submit"]
+	navigationComment = multiple
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

@@ -4,3 +4,6 @@
 brew install tmux
 brew install autojump
 brew install pure
+brew install maccy
+brew install abhinav/tap/git-spice
+brew install fzf
